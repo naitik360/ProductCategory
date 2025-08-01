@@ -15,20 +15,38 @@ A simple yet robust **Product Catalog REST API** built using **Java Spring Boot*
 ---
 
 ## 📁 Project Structure
+Sure! Here's a clean and markdown-friendly **code structure block** you can include in your README file. This will help readers quickly understand the folder and package organization of your Spring Boot project:
+
+---
+
+### 📁 Project Structure
+
+<pre>
 src/
-├── controller
-│ └── ProductController.java
-├── dto
-│ └── ProductDTO.java
-├── entity
-│ └── Product.java
-├── repository
-│ └── ProductRepository.java
-├── service
-│ ├── ProductService.java
-│ └── ProductServiceImpl.java
-└── main
-└── ProductCatalogApplication.java
+└── main/
+    └── java/
+        └── com/
+            └── productCatalog/
+                └── productCatalog/
+                    ├── controller/
+                    │   └── ProductController.java
+                    ├── dto/
+                    │   └── ProductDTO.java
+                    ├── entity/
+                    │   └── Product.java
+                    ├── repository/
+                    │   └── ProductRepository.java
+                    ├── service/
+                    │   ├── ProductService.java
+                    │   └── ProductServiceImpl.java
+                    └── ProductCatalogApplication.java
+    └── resources/
+        ├── application.properties
+        └── static/ (optional)
+</pre>
+
+You can paste this under the **"📁 Project Structure"** section in the README. Let me know if you want to include `test/` structure or external files like `pom.xml`, Postman collection, etc.
+
 
 
 
